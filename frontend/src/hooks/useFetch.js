@@ -1,5 +1,5 @@
 export function testGetRequest() {
-    return fetch('url', {
+    return fetch('http://127.0.0.1:8000/blockchain/hello', {
         method: 'GET'
     })
         .then(response => response.json())
